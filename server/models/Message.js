@@ -40,6 +40,6 @@ const MessageSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-
+console.log("first");
 const MessageModel = mongoose.model("Message", MessageSchema);
 export default MessageModel;
