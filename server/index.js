@@ -19,7 +19,7 @@ import searchRoute from "./routes/searchRoute.js";
 
 import postRoutes from "./routes/posts.js";
 import { register } from "./controllers/auth.js";
-import messageRoutes from "./routes/message.js";
+import messageRoutes from "./routes/Message.js";
 import GroupRoutes from "./routes/GroupRoutes.js";
 import AdminRoutes from "./routes/AdminRoutes.js";
 import NotificationRoutes from "./routes/NotificationRoutes.js";
