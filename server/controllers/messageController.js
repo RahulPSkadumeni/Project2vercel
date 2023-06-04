@@ -1,4 +1,4 @@
-import MessageModel from "../models/messageModel.js";
+import MessageModel from "../models/MessageModel.js";
 
 export const addMessage = async (req, res) => {
   const { chatId, senderId, text } = req.body;
@@ -8,6 +8,7 @@ export const addMessage = async (req, res) => {
     text,
   });
   try {
+    console.log("first");
     const result = await message.save();
     res.status(200).json(result);
   } catch (error) {
@@ -15,6 +16,7 @@ export const addMessage = async (req, res) => {
   }
 };
 
+console.log("first");
 export const getMessages = async (req, res) => {
   const { chatId } = req.params;
   try {
@@ -24,3 +26,8 @@ export const getMessages = async (req, res) => {
     res.status(500).json(error);
   }
 };
+console.log("first");
+
+function b() {
+  console.log("hai");
+}

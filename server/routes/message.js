@@ -8,6 +8,4 @@ router.get("/:chatId", getMessages);
 
 export default router;
 
-function a() {
-  console.log("hai");
-}
+function a() {}
