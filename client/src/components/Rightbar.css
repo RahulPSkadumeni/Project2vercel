@@ -128,7 +128,7 @@
 .rightbarInfoKey {
   font-weight: 500;
   margin-right: 15px;
-  color: #555;
+  color: #0d0c0c;
 }
 
 .rightbarInfoValue {
@@ -174,7 +174,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   margin-bottom: 15px;
-  background-color: #231e39;
+  background-color: #949398;
   border-radius: 15px;
   box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
   margin-bottom: 30px;
@@ -185,7 +185,7 @@ h4 {
 .rightbarInfokey {
   font-weight: 500;
   margin-right: 15px;
-  color: #555;
+  color: #eae6e6;
 }
 .rightbarInfoValue {
   font-weight: 300;
